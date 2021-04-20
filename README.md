@@ -7,7 +7,7 @@ The program allows users to learn more about car maintenance, find solutions to 
 To use the application, the user will need
 - An Android phone capable of running the application
 - Internet connection
-- Android Studio with Android Emulator(for now, recommended emulator used by developers is Pixel 4 XL)
+- Android Studio with Android Emulator(for now, recommended emulator used by developers is Pixel 4 XL
 
 
 The current version can be used by vehicle owners to maintain their rides with the tips given in the application.
@@ -26,3 +26,8 @@ The data is stored in accordance with the Data Privacy Act of 2012.
 
 Version Notes:
 - 1.0 - Initial working Android application, with login and sign up function and maintenance tips.
+
+Notes for the current program version
+- Progress bar does not close automatically once wrong password is entered
+- Firebase Verification does not work on one of the test runs for a currently undetermined reason
+- Tips will be updated in the revision of the program.
