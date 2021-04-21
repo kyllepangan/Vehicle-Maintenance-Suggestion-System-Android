@@ -23,15 +23,23 @@ Once these steps have been performed, the user can access the program.
 Data is stored securely and can be deleted by the developers if requested. 
 The data is stored in accordance with the Data Privacy Act of 2012.
 
-CONTRIBUTERS:
-1.)Macatugob, Jefran S.
+CONTRIBUTORS:
+- Macatugob, Jefran S.
+
 De La Salle University
+
 BS Computer Engineering
+
 11845821
 
-2.)Pangan, Kylle Avram C.
+
+
+- Pangan, Avram Kylle C.
+
 De La Salle University
+
 BS Computer Engineering
+
 11839376
 
 Version Notes:
