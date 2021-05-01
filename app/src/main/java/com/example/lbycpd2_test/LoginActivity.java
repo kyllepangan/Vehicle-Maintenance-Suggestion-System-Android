@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private EditText editTextEmail, editTextPassword;
     private ProgressBar progressBar;
     private Button buttonLogin;
-    private TextView textViewSignup;
+    private TextView textViewSignup, textViewForgotPassword;
     private FirebaseAuth mAuth;
 
 
@@ -49,6 +49,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         buttonLogin = (Button) findViewById(R.id.buttonLogin);
         textViewSignup = (TextView) findViewById(R.id.textViewSignup);
         textViewSignup.setOnClickListener(this);
+        textViewForgotPassword = (TextView) findViewById(R.id.textViewForgotPassword);
+        textViewForgotPassword.setOnClickListener(this);
         mAuth = FirebaseAuth.getInstance();
     }
 
@@ -65,6 +67,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             //launch Register Activity
             case R.id.textViewSignup:
                 startActivity(new Intent(this, RegisterActivity.class));
+                break;
+
+            //launch Forgot Password Activity
+            case R.id.textViewForgotPassword:
+                startActivity(new Intent(this, ForgotPasswordActivity.class));
                 break;
         }
     }
@@ -121,14 +128,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     else{
                         user.sendEmailVerification();
                         Toast.makeText(LoginActivity.this, "Check your email to verify your account", Toast.LENGTH_LONG).show();
-                        progressBar.setVisibility(View.GONE);
+
                     }
+
                 }
 
                 //Fail to login
                 else{
                     Toast.makeText(LoginActivity.this, "Failed to login! Please check your credentials", Toast.LENGTH_LONG).show();
                 }
+                progressBar.setVisibility(View.GONE);
             }
         });
     }

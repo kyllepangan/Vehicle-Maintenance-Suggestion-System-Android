@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LBYCPD2_TEST">
-        <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity android:name=".ForgotPasswordActivity" android:parentActivityName=".LoginActivity"></activity>
         <activity
             android:name=".MessageActivity"
             android:parentActivityName=".HomeActivity" />
