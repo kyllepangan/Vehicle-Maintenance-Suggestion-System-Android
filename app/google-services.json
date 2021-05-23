@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "99423199144",
+    "project_id": "vms-system-91f22",
+    "storage_bucket": "vms-system-91f22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99423199144:android:2ecc17377e240ef171c79d",
+        "android_client_info": {
+          "package_name": "com.example.lbycpd2_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99423199144-fulgifaku2a58chpea22busrqnsnnirm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7sUbUCmvr2JnESFmrn6DaysXeIkuKDxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99423199144-fulgifaku2a58chpea22busrqnsnnirm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

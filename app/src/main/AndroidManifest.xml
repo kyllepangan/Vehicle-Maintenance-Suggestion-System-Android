@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lbycpd2_test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LBYCPD2_TEST">
+        <activity android:name=".ForgotPasswordActivity" android:parentActivityName=".LoginActivity"></activity>
+        <activity
+            android:name=".MessageActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Message2Activity"
+            android:parentActivityName=".MessageActivity" />
+        <activity
+            android:name=".InstructionActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AirFilterActivity"
+            android:parentActivityName=".InstructionActivity" />
+        <activity
+            android:name=".CarWashActivity"
+            android:parentActivityName=".InstructionActivity" />
+        <activity
+            android:name=".BatteryMaintenanceActivity"
+            android:parentActivityName=".InstructionActivity" />
+        <activity
+            android:name=".OilActivity"
+            android:parentActivityName=".InstructionActivity" />
+        <activity
+            android:name=".BrakePadsActivity"
+            android:parentActivityName=".InstructionActivity" />
+        <activity
+            android:name=".FuelFilterReplacementActivity"
+            android:parentActivityName=".InstructionActivity" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".DisplayProblemActivity"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".OthersProblemActivity"
+            android:parentActivityName=".DisplayProblemActivity" />
+        <activity
+            android:name=".EngineProblemActivity"
+            android:parentActivityName=".DisplayProblemActivity" />
+        <activity
+            android:name=".ExteriorProblemActivity"
+            android:parentActivityName=".DisplayProblemActivity" />
+        <activity
+            android:name=".InteriorProblemActivity"
+            android:parentActivityName=".DisplayProblemActivity" />
+        <activity
+            android:name=".LeatherCrackActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".CupholderStuckActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".SmellyInteriorActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".DashboardMeltingActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".DamagedDoorHandleActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".RoughIdleActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".CarDoesntStartActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".OverheatActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".LeakingFluidActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".TurboWhistleActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".IndicatorShowingActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".RadioNotWorkingActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".ElectricalUpgradeActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".HeadlightNotWorkingActivity"
+            android:parentActivityName=".InteriorProblemActivity" />
+        <activity
+            android:name=".ScratchesActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".HeadlightCrackActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".TireLeakActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".CarAccidentActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".LostWheelActivity"
+            android:parentActivityName=".ExteriorProblemActivity" />
+        <activity
+            android:name=".ElectricalProblemActivity"
+            android:parentActivityName=".DisplayProblemActivity" />
+        <activity
+            android:name=".AcActuatorActivity"
+            android:parentActivityName=".OthersProblemActivity" />
+        <activity
+            android:name=".WeakHornActivity"
+            android:parentActivityName=".OthersProblemActivity" />
+        <activity
+            android:name=".RideQualityActivity"
+            android:parentActivityName=".OthersProblemActivity" />
+        <activity
+            android:name=".UpgradingWarrantyActivity"
+            android:parentActivityName=".OthersProblemActivity" />
+        <activity
+            android:name=".WeakHeadlightsActivity"
+            android:parentActivityName=".OthersProblemActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
