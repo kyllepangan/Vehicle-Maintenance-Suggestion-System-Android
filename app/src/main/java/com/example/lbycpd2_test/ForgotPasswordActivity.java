@@ -73,6 +73,12 @@ public class ForgotPasswordActivity extends AppCompatActivity {
                     progressBar.setVisibility(View.GONE);
 
                 }
+                else {
+                    Toast.makeText(ForgotPasswordActivity.this, "Email does not exist in Firebase", Toast.LENGTH_LONG).show();
+
+                    //stop loading animation
+                    progressBar.setVisibility(View.GONE);
+                }
             }
         });
     }

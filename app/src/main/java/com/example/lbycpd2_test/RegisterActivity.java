@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener{
@@ -132,6 +133,19 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                     }
                                 }
                             });
+                        }
+                        else if (!task.isSuccessful()) {
+                            try {
+                                throw task.getException();
+                            }
+                            catch (FirebaseAuthUserCollisionException existEmail){
+                                Toast.makeText(RegisterActivity.this, "Failed to register. Email already exists.", Toast.LENGTH_LONG).show();
+                            }
+                            catch (Exception e)
+                            {
+                                e.printStackTrace();
+                                Toast.makeText(RegisterActivity.this, "Failed to register", Toast.LENGTH_LONG).show();
+                            }
                         }
                         else {
                             Toast.makeText(RegisterActivity.this, "Failed to register", Toast.LENGTH_LONG).show();
