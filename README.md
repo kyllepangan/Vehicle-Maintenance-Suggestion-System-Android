@@ -44,8 +44,10 @@ BS Computer Engineering
 
 Version Notes:
 - 1.0 - Initial working Android application, with login and sign up function and maintenance tips.
+- 3.0 - Working application, with bugs
+- 3.3/3.4 - Bug fixes
+- 3.5 - Photos are added to preset solutions
 
 Notes for the current program version
-- Progress bar does not close automatically once wrong password is entered
 - Firebase Verification does not work on one of the test runs for a currently undetermined reason
-- Tips will be updated in the revision of the program.
+- Messaging function will be added in the next release
