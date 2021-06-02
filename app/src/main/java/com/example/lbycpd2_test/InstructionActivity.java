@@ -6,6 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.lbycpd2_test.preventive_maintenance.AirFilterActivity;
+import com.example.lbycpd2_test.preventive_maintenance.BatteryMaintenanceActivity;
+import com.example.lbycpd2_test.preventive_maintenance.BrakePadsActivity;
+import com.example.lbycpd2_test.preventive_maintenance.CarWashActivity;
+import com.example.lbycpd2_test.preventive_maintenance.FuelFilterReplacementActivity;
+import com.example.lbycpd2_test.preventive_maintenance.OilActivity;
+
 public class InstructionActivity extends AppCompatActivity {
 
     @Override

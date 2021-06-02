@@ -1,7 +1,7 @@
 package com.example.lbycpd2_test;
 
 public class User {
-    private String username,email, password;
+    public String username,email, password;
 
     public User(){
 

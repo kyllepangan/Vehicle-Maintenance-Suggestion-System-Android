@@ -23,7 +23,7 @@ public class MessageActivity extends AppCompatActivity {
     //launch Message Activity
     public void launchMessageMechanics(View v){
 
-        Intent i = new Intent(this, Message2Activity.class);
+        Intent i = new Intent(this, RequestActivity.class);
         i.putExtra("Alert","Logging out...");
         startActivity(i);
 

@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LBYCPD2_TEST">
-        <activity android:name=".ForgotPasswordActivity" android:parentActivityName=".LoginActivity"></activity>
+        <activity android:name=".RequestActivity"></activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:parentActivityName=".LoginActivity" />
         <activity
             android:name=".MessageActivity"
             android:parentActivityName=".HomeActivity" />
@@ -20,22 +23,22 @@
             android:name=".InstructionActivity"
             android:parentActivityName=".HomeActivity" />
         <activity
-            android:name=".AirFilterActivity"
+            android:name=".preventive_maintenance.AirFilterActivity"
             android:parentActivityName=".InstructionActivity" />
         <activity
-            android:name=".CarWashActivity"
+            android:name=".preventive_maintenance.CarWashActivity"
             android:parentActivityName=".InstructionActivity" />
         <activity
-            android:name=".BatteryMaintenanceActivity"
+            android:name=".preventive_maintenance.BatteryMaintenanceActivity"
             android:parentActivityName=".InstructionActivity" />
         <activity
-            android:name=".OilActivity"
+            android:name=".preventive_maintenance.OilActivity"
             android:parentActivityName=".InstructionActivity" />
         <activity
-            android:name=".BrakePadsActivity"
+            android:name=".preventive_maintenance.BrakePadsActivity"
             android:parentActivityName=".InstructionActivity" />
         <activity
-            android:name=".FuelFilterReplacementActivity"
+            android:name=".preventive_maintenance.FuelFilterReplacementActivity"
             android:parentActivityName=".InstructionActivity" />
         <activity
             android:name=".AboutUsActivity"
@@ -44,92 +47,92 @@
             android:name=".DisplayProblemActivity"
             android:parentActivityName=".HomeActivity" />
         <activity
-            android:name=".OthersProblemActivity"
+            android:name=".search_problem.OthersProblemActivity"
             android:parentActivityName=".DisplayProblemActivity" />
         <activity
-            android:name=".EngineProblemActivity"
+            android:name=".search_problem.EngineProblemActivity"
             android:parentActivityName=".DisplayProblemActivity" />
         <activity
-            android:name=".ExteriorProblemActivity"
+            android:name=".search_problem.ExteriorProblemActivity"
             android:parentActivityName=".DisplayProblemActivity" />
         <activity
-            android:name=".InteriorProblemActivity"
+            android:name=".search_problem.InteriorProblemActivity"
             android:parentActivityName=".DisplayProblemActivity" />
         <activity
-            android:name=".LeatherCrackActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.interior.LeatherCrackActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".CupholderStuckActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.interior.CupholderStuckActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".SmellyInteriorActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.interior.SmellyInteriorActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".DashboardMeltingActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.interior.DashboardMeltingActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".DamagedDoorHandleActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.interior.DamagedDoorHandleActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".RoughIdleActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.engine.RoughIdleActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".CarDoesntStartActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.engine.CarDoesntStartActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".OverheatActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.engine.OverheatActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".LeakingFluidActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.engine.LeakingFluidActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".TurboWhistleActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.engine.TurboWhistleActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".IndicatorShowingActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.electrical.IndicatorShowingActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".RadioNotWorkingActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.electrical.RadioNotWorkingActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".ElectricalUpgradeActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.electrical.ElectricalUpgradeActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".HeadlightNotWorkingActivity"
-            android:parentActivityName=".InteriorProblemActivity" />
+            android:name=".search_problem.electrical.HeadlightNotWorkingActivity"
+            android:parentActivityName=".search_problem.InteriorProblemActivity" />
         <activity
-            android:name=".ScratchesActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.exterior.ScratchesActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".HeadlightCrackActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.exterior.HeadlightCrackActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".TireLeakActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.exterior.TireLeakActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".CarAccidentActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.exterior.CarAccidentActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".LostWheelActivity"
-            android:parentActivityName=".ExteriorProblemActivity" />
+            android:name=".search_problem.exterior.LostWheelActivity"
+            android:parentActivityName=".search_problem.ExteriorProblemActivity" />
         <activity
-            android:name=".ElectricalProblemActivity"
+            android:name=".search_problem.ElectricalProblemActivity"
             android:parentActivityName=".DisplayProblemActivity" />
         <activity
-            android:name=".AcActuatorActivity"
-            android:parentActivityName=".OthersProblemActivity" />
+            android:name=".search_problem.others.AcActuatorActivity"
+            android:parentActivityName=".search_problem.OthersProblemActivity" />
         <activity
-            android:name=".WeakHornActivity"
-            android:parentActivityName=".OthersProblemActivity" />
+            android:name=".search_problem.others.WeakHornActivity"
+            android:parentActivityName=".search_problem.OthersProblemActivity" />
         <activity
-            android:name=".RideQualityActivity"
-            android:parentActivityName=".OthersProblemActivity" />
+            android:name=".search_problem.others.RideQualityActivity"
+            android:parentActivityName=".search_problem.OthersProblemActivity" />
         <activity
-            android:name=".UpgradingWarrantyActivity"
-            android:parentActivityName=".OthersProblemActivity" />
+            android:name=".search_problem.others.UpgradingWarrantyActivity"
+            android:parentActivityName=".search_problem.OthersProblemActivity" />
         <activity
-            android:name=".WeakHeadlightsActivity"
-            android:parentActivityName=".OthersProblemActivity" />
+            android:name=".search_problem.others.WeakHeadlightsActivity"
+            android:parentActivityName=".search_problem.OthersProblemActivity" />
         <activity android:name=".HomeActivity" />
         <activity
             android:name=".RegisterActivity"

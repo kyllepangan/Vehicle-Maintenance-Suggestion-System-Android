@@ -1,0 +1,476 @@
+@startuml
+
+title __LBYCPD2_TEST.APP's Class Diagram__\n
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.AboutUsActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.BuildConfig {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.CustomDialog {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.DisplayProblemActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.ForgotPasswordActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.HomeActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.InstructionActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.JavaMailAPI {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.LoginActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.Message2Activity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.MessageActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.RegisterActivity {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.User {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    class com.example.lbycpd2_test.Utils {
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace preventive_maintenance {
+      class com.example.lbycpd2_test.preventive_maintenance.AirFilterActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace preventive_maintenance {
+      class com.example.lbycpd2_test.preventive_maintenance.BatteryMaintenanceActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace preventive_maintenance {
+      class com.example.lbycpd2_test.preventive_maintenance.BrakePadsActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace preventive_maintenance {
+      class com.example.lbycpd2_test.preventive_maintenance.CarWashActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace preventive_maintenance {
+      class com.example.lbycpd2_test.preventive_maintenance.FuelFilterReplacementActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace preventive_maintenance {
+      class com.example.lbycpd2_test.preventive_maintenance.OilActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      class com.example.lbycpd2_test.search_problem.ElectricalProblemActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      class com.example.lbycpd2_test.search_problem.EngineProblemActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      class com.example.lbycpd2_test.search_problem.ExteriorProblemActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      class com.example.lbycpd2_test.search_problem.InteriorProblemActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      class com.example.lbycpd2_test.search_problem.OthersProblemActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace electrical {
+        class com.example.lbycpd2_test.search_problem.electrical.ElectricalUpgradeActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace electrical {
+        class com.example.lbycpd2_test.search_problem.electrical.HeadlightNotWorkingActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace electrical {
+        class com.example.lbycpd2_test.search_problem.electrical.IndicatorShowingActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace electrical {
+        class com.example.lbycpd2_test.search_problem.electrical.RadioNotWorkingActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace engine {
+        class com.example.lbycpd2_test.search_problem.engine.CarDoesntStartActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace engine {
+        class com.example.lbycpd2_test.search_problem.engine.LeakingFluidActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace engine {
+        class com.example.lbycpd2_test.search_problem.engine.OverheatActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace engine {
+        class com.example.lbycpd2_test.search_problem.engine.RoughIdleActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace engine {
+        class com.example.lbycpd2_test.search_problem.engine.TurboWhistleActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace exterior {
+        class com.example.lbycpd2_test.search_problem.exterior.CarAccidentActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace exterior {
+        class com.example.lbycpd2_test.search_problem.exterior.HeadlightCrackActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace exterior {
+        class com.example.lbycpd2_test.search_problem.exterior.LostWheelActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace exterior {
+        class com.example.lbycpd2_test.search_problem.exterior.ScratchesActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace exterior {
+        class com.example.lbycpd2_test.search_problem.exterior.TireLeakActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace interior {
+        class com.example.lbycpd2_test.search_problem.interior.CupholderStuckActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace interior {
+        class com.example.lbycpd2_test.search_problem.interior.DamagedDoorHandleActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace interior {
+        class com.example.lbycpd2_test.search_problem.interior.DashboardMeltingActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace interior {
+        class com.example.lbycpd2_test.search_problem.interior.LeatherCrackActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace interior {
+        class com.example.lbycpd2_test.search_problem.interior.SmellyInteriorActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace others {
+        class com.example.lbycpd2_test.search_problem.others.AcActuatorActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace others {
+        class com.example.lbycpd2_test.search_problem.others.RideQualityActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace others {
+        class com.example.lbycpd2_test.search_problem.others.UpgradingWarrantyActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace others {
+        class com.example.lbycpd2_test.search_problem.others.WeakHeadlightsActivity {
+        }
+      }
+    }
+  }
+  
+
+  namespace com.example.lbycpd2_test {
+    namespace search_problem {
+      namespace others {
+        class com.example.lbycpd2_test.search_problem.others.WeakHornActivity {
+        }
+      }
+    }
+  }
+  
+
+  com.example.lbycpd2_test.AboutUsActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.CustomDialog -up-|> androidx.appcompat.app.AppCompatDialogFragment
+  com.example.lbycpd2_test.CustomDialog o-- com.example.lbycpd2_test.CustomDialog.DialogListener : listener
+  com.example.lbycpd2_test.DisplayProblemActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.ForgotPasswordActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.HomeActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.InstructionActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.JavaMailAPI -up-|> android.os.AsyncTask
+  com.example.lbycpd2_test.LoginActivity .up.|> android.view.View.OnClickListener
+  com.example.lbycpd2_test.LoginActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.Message2Activity .up.|> com.example.lbycpd2_test.CustomDialog.DialogListener
+  com.example.lbycpd2_test.Message2Activity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.MessageActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.RegisterActivity .up.|> android.view.View.OnClickListener
+  com.example.lbycpd2_test.RegisterActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.preventive_maintenance.AirFilterActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.preventive_maintenance.BatteryMaintenanceActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.preventive_maintenance.BrakePadsActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.preventive_maintenance.CarWashActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.preventive_maintenance.FuelFilterReplacementActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.preventive_maintenance.OilActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.ElectricalProblemActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.EngineProblemActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.ExteriorProblemActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.InteriorProblemActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.OthersProblemActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.electrical.ElectricalUpgradeActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.electrical.HeadlightNotWorkingActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.electrical.IndicatorShowingActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.electrical.RadioNotWorkingActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.engine.CarDoesntStartActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.engine.LeakingFluidActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.engine.OverheatActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.engine.RoughIdleActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.engine.TurboWhistleActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.exterior.CarAccidentActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.exterior.HeadlightCrackActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.exterior.LostWheelActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.exterior.ScratchesActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.exterior.TireLeakActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.interior.CupholderStuckActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.interior.DamagedDoorHandleActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.interior.DashboardMeltingActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.interior.LeatherCrackActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.interior.SmellyInteriorActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.others.AcActuatorActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.others.RideQualityActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.others.UpgradingWarrantyActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.others.WeakHeadlightsActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.lbycpd2_test.search_problem.others.WeakHornActivity -up-|> androidx.appcompat.app.AppCompatActivity
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

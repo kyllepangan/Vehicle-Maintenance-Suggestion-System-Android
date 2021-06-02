@@ -7,8 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.lbycpd2_test.search_problem.ElectricalProblemActivity;
+import com.example.lbycpd2_test.search_problem.EngineProblemActivity;
+import com.example.lbycpd2_test.search_problem.ExteriorProblemActivity;
+import com.example.lbycpd2_test.search_problem.InteriorProblemActivity;
+import com.example.lbycpd2_test.search_problem.OthersProblemActivity;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class DisplayProblemActivity extends AppCompatActivity {
 

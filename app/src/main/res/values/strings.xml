@@ -1,3 +1,50 @@
 <resources>
     <string name="app_name">LBYCPD2_TEST</string>
+
+    <string-array name="PROBLEM">
+        <item>AIR FILTERS</item>
+        <item>CAR WASH</item>
+        <item>OIL AND OIL FILTERS</item>
+        <item>BATTERY MAINTENANCE</item>
+        <item>BRAKE PADS</item>
+        <item>FUEL FILTER REPLACEMENT</item>
+
+
+        <item>ROUGH IDLE</item>
+        <item>CAR DOES NOT START</item>
+        <item>ENGINE OVERHEATING</item>
+        <item>FLUID LEAKING BELOW CAR</item>
+        <item>WHISTLING SOUND</item>
+
+        <item>SCRATCHES/DENTS</item>
+        <item>CRACK HEADLIGHT/TAILLIGHT</item>
+        <item>TIRE LEAK/CRACK</item>
+        <item>ACCIDENT WITH OTHER CAR</item>
+        <item>LOST SPARE TIRE/WHEEL</item>
+
+        <item>HEADLIGHT/TAILLIGHT NOT WORKING</item>
+        <item>INDICATOR LIGHT IS SHOWING</item>
+        <item>RADIO NOT WORKING</item>
+        <item>WARRANTY ON ELECTRICAL UPGRADES</item>
+
+        <item>CRACK ON LEATHER</item>
+        <item>CUPHOLDER NOT MOVING</item>
+        <item>SMELL INSIDE CAR</item>
+        <item>DASHBOARD MELTING</item>
+        <item>DOOR HANDLE DAMAGED</item>
+
+        <item>RAT-LIKE SOUND</item>
+        <item>HORN IS TOO WEAK</item>
+        <item>RIDE QUALITY IS POOR</item>
+        <item>UPGRADING: WARRANTY</item>
+        <item>HEADLIGHT ARE WEAK</item>
+    </string-array>
+
+
+    <string-array name="MECHANIC">
+        <item>fordmechanic.vmss@gmail.com</item>
+        <item>jdmmechanic.vmss@gmail.com</item>
+        <item>devs.vmss@gmail.com</item>
+
+    </string-array>
 </resources>

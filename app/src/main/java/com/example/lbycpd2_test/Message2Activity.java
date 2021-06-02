@@ -26,7 +26,12 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Message2Activity extends AppCompatActivity implements CustomDialog.DialogListener{
 
@@ -46,13 +51,23 @@ public class Message2Activity extends AppCompatActivity implements CustomDialog.
 
         openDialog();
 
+        email2.setText(getIntent().getStringExtra("MECHANIC"));
+        subject.setText("Service Request for "+getIntent().getStringExtra("PROBLEM"));
+        String body = "Good day sir mechanic!\n\nI would like to request a service for my problem: "+getIntent().getStringExtra("PROBLEM")+
+                        "to be done at "+getIntent().getStringExtra("TIME")+" on "+getIntent().getStringExtra("DATE")+". Please confirm to " +
+                        "whether you accept the request.\n\nThank you very much.\n\nSincerly,\n"+"Vehicle Maintenance Suggestion System";
+        message.setText(body);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 senEmail();
             }
         });
+
+
     }
+
 
     public void openDialog(){
         CustomDialog customDialog = new CustomDialog();
