@@ -51,12 +51,34 @@ public class Message2Activity extends AppCompatActivity implements CustomDialog.
 
         openDialog();
 
-        email2.setText(getIntent().getStringExtra("MECHANIC"));
-        subject.setText("Service Request for "+getIntent().getStringExtra("PROBLEM"));
-        String body = "Good day sir mechanic!\n\nI would like to request a service for my problem: "+getIntent().getStringExtra("PROBLEM")+
-                        "to be done at "+getIntent().getStringExtra("TIME")+" on "+getIntent().getStringExtra("DATE")+". Please confirm to " +
-                        "whether you accept the request.\n\nThank you very much.\n\nSincerly,\n"+"Vehicle Maintenance Suggestion System";
-        message.setText(body);
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Users");
+        String userID = user.getUid();
+
+        final TextView usernameTextView = (TextView) findViewById(R.id.usernameTextView);
+
+        reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                User userProfile = snapshot.getValue(User.class);
+
+                if (userProfile != null) {
+                    email2.setText(getIntent().getStringExtra("MECHANIC"));
+                    subject.setText("Service Request for "+getIntent().getStringExtra("PROBLEM"));
+                    String userName = userProfile.username;
+                    email2.setText(getIntent().getStringExtra("MECHANIC"));
+                    subject.setText("Service Request for "+getIntent().getStringExtra("PROBLEM"));
+                    String body = "Good day sir mechanic!\n\n"+userName+" would like to request a service for my problem: "+getIntent().getStringExtra("PROBLEM")+
+                            " to be done at "+getIntent().getStringExtra("TIME")+" on "+getIntent().getStringExtra("DATE")+". Please confirm to " +
+                            "whether you accept the request.\n\nThank you very much.\n\nSincerely,\n"+userName+"\nc/o Vehicle Maintenance Suggestion System";
+                    message.setText(body);
+                }
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(Message2Activity.this, "Something wrong happened!", Toast.LENGTH_LONG).show();
+            }
+        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
