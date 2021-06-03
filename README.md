@@ -42,9 +42,9 @@
 - 3.3/3.4 - Bug fixes
 - 3.5 - Photos are added to preset solutions
 - 3.6 - Email is shown on home page after login
+- 4.0 - App can be used to schedule a consultation for a problem. The application does not store schedules in the database.
 
 ----
 **Notes for the current program version**
 - Firebase Verification does not work on one of the test runs for a currently undetermined reason
 - To get verification email, after registration, try to log in. After this, you would receive a verification email.
-- Messaging function will be added in the next release (V 4.0)
